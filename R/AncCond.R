@@ -27,7 +27,7 @@ AncCond <- function(trees, data, derived.state, iterations=1000){
   ct.data <- data[data[, 3] != derived.state, ] 
   ct.vec <- as.numeric(ct.data[, 2])
   names(ct.vec) <- ct.data[, 1]
-  
+  4steget4
   ## ASR for the continuous trait
   ## once for each tree since it is not stochastic
   anc.states.cont.trait <- list()
